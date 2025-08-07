@@ -6,8 +6,8 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import QTimer
 import pyqtgraph as pg
 from pyqtgraph import DateAxisItem
-# mt5_data.py（非公開ファイル）から以下の関数をインポート
-from mt5_data import get_latest_price, get_historical_prices  # 独自実装：MT5からデータ取得
+# mt5_in_dat.py（非公開ファイル）から以下の関数をインポート
+from mt5_in_dat import get_latest_price, get_historical_prices  # 独自実装：MT5からデータ取得
 
 
 class MainWindow(QWidget):
